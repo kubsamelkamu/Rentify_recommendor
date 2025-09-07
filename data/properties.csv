@@ -1,0 +1,2 @@
+"id","landlordId","title","description","city","rentPerMonth","numBedrooms","numBathrooms","propertyType","amenities","status","createdAt","updatedAt"
+"11ed023a-7e1e-4805-9f6e-55af109e61b6","b187e3ab-d928-45c7-ac31-4ef3af754b32","Addis Bet","This is good and family apartment","Adama","14000",4,1,"APARTMENT","[""Parking"",""Wifi""]","APPROVED","2025-09-01T19:24:06.910Z","2025-09-01T19:25:15.680Z"

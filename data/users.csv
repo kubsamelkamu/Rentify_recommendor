@@ -1,0 +1,17 @@
+"id","role","email","name","createdAt","updatedAt","isVerified"
+"027c8cc8-b747-443b-86e2-d1f6fd7d7bfe","SUPER_ADMIN","KUBSA@gmail.com","Platform Super‑Admin","2025-08-27T12:09:42.004Z","2025-08-27T12:09:42.004Z",true
+"b187e3ab-d928-45c7-ac31-4ef3af754b32","LANDLORD","melkamuitefa@ymail.com","Itefa Dime","2025-09-01T07:14:42.547Z","2025-09-01T07:28:29.205Z",true
+"fe6b54c3-580c-4705-9a3a-5edba80be1e0","TENANT","kuamlkm@gmail.com","Yyh","2025-08-30T19:02:06.359Z","2025-08-30T19:02:06.359Z",false
+"cd911ca9-13ad-4950-aafe-2dc569e1403c","TENANT","kkkk@gmail.com","Hgh","2025-08-28T10:23:35.894Z","2025-08-28T10:23:35.894Z",false
+"2a95f6a3-723c-4fe9-9838-b5ec9d380111","TENANT","kkknk@gmail.com","Hgh","2025-08-28T10:24:34.587Z","2025-08-28T10:24:34.587Z",false
+"40fd8906-902d-4e87-a758-2d2be7b5cb4c","TENANT","kkkhhhnk@gmail.com","Hgh","2025-08-28T10:25:42.789Z","2025-08-28T10:25:42.789Z",false
+"4f5541b2-9cdd-4205-900f-a0b5e5ea56e6","TENANT","kkkhhmhnk@gmail.com","Hgh","2025-08-28T10:30:15.984Z","2025-08-28T10:30:15.984Z",false
+"c878c590-eb0b-41b4-82e0-21b2c099c7e1","TENANT","ghh@gmail.com","Gyh","2025-08-28T10:34:30.085Z","2025-08-28T10:34:30.085Z",false
+"dad063bf-d554-4a26-bdf9-7d75653b418f","TENANT","hhhh@gmail.com","Ryy","2025-08-28T10:44:58.884Z","2025-08-28T10:44:58.884Z",false
+"aaa7f16a-b9eb-4083-bd21-12b7e7816d72","TENANT","kub@gmail.com","kfafa","2025-08-28T10:48:10.484Z","2025-08-28T10:48:10.484Z",false
+"67b704ce-dada-4541-83a6-2205e992b204","TENANT","gh@gmail.com","Yffuuf","2025-08-28T10:51:10.289Z","2025-08-28T10:51:10.289Z",false
+"ce594552-7c41-4a7d-87f0-f1e6c736d62a","TENANT","jdjd@gmail.com","Ueje","2025-08-28T10:58:12.488Z","2025-08-28T10:58:12.488Z",false
+"5e3b76db-f47c-4ffc-92c1-779b104b27be","TENANT","kiu@gmail.com","Yhj","2025-08-30T09:42:18.643Z","2025-08-30T09:42:18.643Z",false
+"0249548d-33a5-4b6d-b374-dd6963c27d3d","TENANT","hj@gmail.com","Kjgg","2025-08-30T09:42:58.941Z","2025-08-30T09:45:24.495Z",false
+"cb5f0774-44c2-4cc3-99b5-aa4e3d4b1570","TENANT","kubsamlkm@gmail.com","Kubsa Melkamu Etefa Dime","2025-08-30T09:03:55.042Z","2025-09-04T18:50:14.259Z",true
+"5f76fe77-bc1c-4b32-9489-725a94e25abe","TENANT","dyddy@gmail.com","Gftsd","2025-08-30T17:32:58.684Z","2025-08-30T17:32:58.684Z",false
