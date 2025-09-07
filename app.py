@@ -30,6 +30,10 @@ def recommend_for_landlord(property_id):
     matches = recommend_tenants_for_property(property_id, data)
     return jsonify({"property_id": property_id, "matches": matches})
 
+@app.route('/health', methods=['GET'])
+def health_check():
+    return jsonify({"status": "ok"}), 200
+
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
-    
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)
