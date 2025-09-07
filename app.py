@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 import os
-from utils.data_loader import load_all_data
+from util.data_loader import load_all_data
 from recommend.tenant import recommend_properties_for_tenant
 from recommend.landlord import recommend_tenants_for_property
 
@@ -31,5 +31,5 @@ def recommend_for_landlord(property_id):
     return jsonify({"property_id": property_id, "matches": matches})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
     
