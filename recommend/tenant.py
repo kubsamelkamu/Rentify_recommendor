@@ -14,7 +14,7 @@ def recommend_properties_for_tenant(user_id, data):
     liked_ids = likes[likes['userId'] == user_id]['propertyId'].tolist()
     reviewed_ids = []
     if reviews is not None:
-        reviewed_ids = reviews[reviews['userId'] == user_id]['propertyId'].tolist()
+        reviewed_ids = reviews[reviews['tenantId'] == user_id]['propertyId'].tolist()
 
     exclude_ids = set(booked_ids + liked_ids + reviewed_ids)
     available_props = properties[~properties['id'].isin(exclude_ids)]
@@ -32,4 +32,4 @@ def recommend_properties_for_tenant(user_id, data):
     else:
         available_props = available_props.sort_values('rentPerMonth')
 
-    return available_props.head(5).to_dict(orient='records')
+    return available_props.head(3).to_dict(orient='records')
