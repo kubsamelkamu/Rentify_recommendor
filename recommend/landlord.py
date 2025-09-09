@@ -9,7 +9,7 @@ def recommend_tenants_for_property(property_id, data):
     liked_tenants = likes[likes['propertyId'] == property_id]['userId'].tolist()
     reviewed_tenants = []
     if reviews is not None:
-        reviewed_tenants = reviews[reviews['propertyId'] == property_id]['userId'].tolist()
+        reviewed_tenants = reviews[reviews['propertyId'] == property_id]['tenantId'].tolist()
 
     tenant_ids = set(booked_tenants + liked_tenants + reviewed_tenants)
     tenants = users[(users['id'].isin(tenant_ids)) & (users['role'] == 'TENANT')]
